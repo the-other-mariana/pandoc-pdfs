@@ -7,3 +7,12 @@ Command in Terminal: <br />
 ```
 $ pandoc SEGINT.md -o example.pdf --from markdown --template eisvogel --listings
 ```
+
+# Notes
+
+In the YAML, in order to change font put:
+
+```
+fontfamily: cantarell
+fontfamilyoptions: default
+```

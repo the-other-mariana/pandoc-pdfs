@@ -148,7 +148,8 @@ This is one of the **actual** data structures that we will use for the Segment A
 | **(p1 < p2) ->  if p1.y > p2.y or if p1.y == p2.y and p1.x < p2.x** |
 |     :---:      |
 
-An **Event Object** is simply a group of 3 values:
+An **Event Object** is simply a group of 3 values: <br />
+
 - `point`: Point Object
 - `seg`: Integer that determines the index of the segment that contains this point.
 - `pos`: Integer that determines the index position of the point in its segment (0 starts the segment).
