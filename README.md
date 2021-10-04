@@ -2,6 +2,8 @@
 
 Go to this [repo](https://github.com/Wandmalfarbe/pandoc-latex-template)  (Install MikTex option).<br />
 
+- pandoc installation: [here](https://pandoc.org/installing.html)
+
 Command in Terminal: <br />
 
 ```
