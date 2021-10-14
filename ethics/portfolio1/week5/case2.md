@@ -1,0 +1,98 @@
+---
+title: "Ética y Habilidades Directivas"
+author: [Mariana Ávalos Arce]
+date: "2021"
+keywords: [Markdown, Example]
+...
+
+# Caso: Bing y Mr. Hart
+
+## Hechos
+
+- La empresa tenía un consejero que era el encargado de hacer amistad con los obreros y discutir sus problemas.
+
+- La situación ocurrió en un equipo de trabajo con 4 hombres y 3 mujeres dedicados al control y comprobación de paneles de equipos electrónicos.
+
+- Bing: Empleado. Mr. Hart: Jefe. Fueron entrevistado 5 veces por separado.
+
+- Declaraciones de Bing:
+
+    - Según el sistema de la empresa y TAL COMO ÉL LO VE, tiene un plazo de preparación para que ponga los paneles en un dispositivo para inspeccionarlos. Por tiempo y comodidad, a veces inspecciona 2 o 3 paneles al mismo tiempo. Él cree que es legal, y lo han hecho siempre.
+
+    - Su jefe, Mr Hart, dice que es una forma de estafar a la empresa.
+
+    - Hace 2 días le llamó la atención a Bing yendo hasta su banco de trabajo, utilizando un tono que no le gustó a Bing: lo hizo desear "hundirse en el suelo y desaparecer".
+
+    - Hart era antes un empleado más, pero desde que se volvió jefe olvidó como ser amistoso y tiene dificultad para tratar con los empleados.
+
+    - A Bing no le importa que le llamen la atención, sino que le molesta el ser humillado de forma casi infantil.
+
+    - Hart utiliza un modo tan irritante de llamar la atención, que Bing, a pesar de saber que lo de Hart está dentro de lo permitido, fue sólo a causarle problemas quejándose en el sindicato.
+
+    - Bing pide ser trasladado a otro equipo. De quedarse, le hará la vida imposible a Hart.
+
+    - El convenio afirma que el empleado puede utilizar los medios a su alcance para ahorrar tiempo y acelerar el proceso de trabajo, siempre que se respete la calidad estándar del producto. Hart siempre da marcha atrás cuando el sindicato afronta el asunto.
+
+    - Bing canta durante el trabajo y afirma que a sus compañeros les gusta que cante, pero Hart opina que los molesta y distrae.
+
+    - Hart reprende a Bing porque sus compañeros lo acompañan al baño.
+
+    - Hart vigila a Bing todo el tiempo, y esto le molesta.
+
+    - Bing le ha pedido a Hart ser trasladado, pues Bing considera que es la solución, pero Hart no le hace caso.
+
+- Declaraciones de Hart:
+
+    - El encargado de control de calidad le ha dicho a Hart que Bing se ha hecho pagar doble y triple tiempo de preparación por paneles que revisa al mismo tiempo. Esto lo considera estafa y abuso, y se lo ha hecho notar varias veces. Se lo han recalcado a Hart varias veces y por eso Hart se lo dijo a Bing de forma "más directa".
+
+    - Bing lleva demasiado tiempo portándose así.
+
+    - Afirma que el sindicato siempre se pone del lado de los trabajadores, incluso cuando saben que se aprovechan de la situación.
+
+    - Le ha dicho a Bing que si continúa, Hart hará una reclamación oficial para que lo despidan o sancionen.
+
+    - Ha intentado de varias formas "meterle en la cabeza" el sentido común, pero no puede. Ha intentado por todos los medios hacerlo comprender lo que espera de él.
+
+    - Afirma tratarlo con guantes.
+
+    - La influencia de Bing sobre los demás no es buena: intenta ponerlos en contra de Hart.
+
+    - Le parece que sufre por cumplir sus sueños de cantante. Considera que sus asuntos personales influyen en su trabajo. Por eso no le pierde la vista.
+
+    - Bing no tiene escrúpulos, no tiene compromiso con su trabajo. Desde hace unos meses su actitud a su trabajo ha cambiado.
+
+    - No le ha contestado la petición de traslado porque en ese momento Hart estaba sin idea de qué hacer.
+
+    - Sugiere que se hable más con Bing para poder considerar mejor la situación. Supone problemas en su vida privada, pero no consigue saberlo.
+
+## Problemas
+
+1. Bing revisa 2 o 3 paneles al mismo tiempo y cobra el dobre o triple del tiempo que emplea en ello, y el convenio no es tan claro respecto al criterio.
+
+2. Hart le ha llamado la atención varias veces, de forma exagerada y humillante según Bing.
+
+3. Hart no contesta la petición de Bing de ser trasladado.
+
+4. Bing canta durante sus horas de trabajo y se sale antes de la hora para lavarse las manos.
+
+5. Bing y Hart no logran tener simpatía entre ellos. Bing afirma que Hart cambió cuando se volvió jefe, y olvidó como ser amistoso.
+
+6. Hart no tiene la cercanía con Bing para saber si se trata de algún problema privado.
+
+7. A Hart le han reportado problemas por el cobro de Bing.
+
+8. Nunca se menciona la calidad.
+
+## Soluciones
+
+1. Consultar en Calidad para ver si el rendimiento de Bing es objetivamente inferior como afirma Hart. Si lo es, hacerle saber que sólo puede acelerar su trabajo si no baja su calidad.
+
+2. Conocer a través de algún otro empleado cercano a Bing si algo en su vida privada lo ha distraído. También preguntar si les molesta su canto. De conocer algo, tratar de aconsejar a Bing de forma personal y darle un tiempo para arreglar sus problemas y para que calme sus amenazas de "hacerle la vida imposible" a su Jefe.
+
+3. Hablar con Hart para que el consejero se asegure de que Hart no se ha vuelto un jefe autoritario.
+
+4. Acordar el tipo de pago y criterio de calidad en el convenio.
+
+## Relación del artículo Harvard Business Review con el problema del caso
+
+La paradoja del poder: una persona que escala hacia alguna posición de poder o privilegio por buenas cualidades, es más propensa a perder estas mismas cualidades mientras más suba de rango. Esto se relaciona bastante con el problema que Bing recalca cuando dice que su Jefe Hart cambió cuando se hizo jefe: le comenzó a llamara la atención de forma humillante. A pesar de que podría o no ser cierto que Bing ha disminuido su calidad laboral, Hart no debería tomar esas actitudes. El artículo afirma esto último al hablar sobre cómo la actitud de un líder se ve reflejado en el trabajo y actitud de sus subordinados.
