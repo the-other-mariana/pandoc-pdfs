@@ -18,3 +18,9 @@ In the YAML, in order to change font put:
 fontfamily: cantarell
 fontfamilyoptions: default
 ```
+
+```
+fontfamily: fouriernc
+header-includes:
+  - \renewcommand{\familydefault}{\sfdefault}
+```
