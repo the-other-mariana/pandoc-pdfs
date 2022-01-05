@@ -29,14 +29,14 @@ char* pc;
 pc = &c // no error
 ```
 
-- ### Declaration
+- **Declaration**
 
 ```c++
 int x;
 int* px; // declaration
 ```
 
-- ### Initialization
+- **Initialization**
 
 Initialization of a pointer is when in its declaration, you also assign its value, which is a memory address.
 
@@ -44,7 +44,7 @@ Initialization of a pointer is when in its declaration, you also assign its valu
 int* px = &x;
 ```
 
-- ### Assignment
+- **Assignment**
 
 After a pointer declaration, you can assign a memory address as the pointer value.
 
@@ -52,7 +52,7 @@ After a pointer declaration, you can assign a memory address as the pointer valu
 px = &x;
 ```
 
-- ### Indirection
+- **Indirection**
 
 Indirection is accessing to the value of the variable the pointer is pointing at.
 
@@ -378,7 +378,7 @@ cout << *(ptr1 + 5) << endl; // 50
 
 There are 3 ways in which you can pass arguments (values) to functions:
 
-- ### Pass by Value
+- **Pass by Value**
 
 This method copies the actual **value** of an argument into the parameter of the function, where this parameter is only **local** to the function. Changes made to the parameter inside the function have no effect on the argument. By default, c++ uses this method of passing in functions. You create a new memory location with the value of the passed argument.
 
@@ -394,7 +394,7 @@ int main(){
 }
 ```
 
-- ### Pass by Reference
+- **Pass by Reference**
 
 This method copies the **reference** of an argument into the formal parameter. Inside the function, the reference is used to access the **actual argument** used in the call. Therefore, changes made to the parameter affect the passed argument. In this case, x is a new name given to a, and y is the new name for b. X is a new name for the same memory location named a.
 
@@ -410,7 +410,7 @@ int main(){
 }
 ```
 
-- ### Pass by Address
+- **Pass by Address**
 
 Also named Pass by Pointer, this method copies the **address** of an argument into the formal parameter of a function. Inside the function, the **actual address** is used to access the actual argument used in the call. Therefore, changes made to the parameter affect the passed argument. To do this, argument pointers are passed to the function. You are passing the address of a to the inside of pointer x in the function argument.
 
