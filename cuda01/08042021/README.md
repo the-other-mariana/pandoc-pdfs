@@ -3,6 +3,11 @@ title: "Introduction to Parallel Computing with CUDA"
 author: [Mariana Avalos Arce]
 date: "2021"
 keywords: [Markdown, Example]
+geometry: margin=1in
+fontsize: 12pt
+fontenc: T1
+fontfamily: sourcesanspro  
+fontfamilyoptions: sfdefault
 ...
 
 # Review: Pointers & Memory Allocation

@@ -1,3 +1,15 @@
+---
+title: "Introduction to Parallel Computing with CUDA"
+author: [Mariana Avalos Arce]
+date: "2021"
+keywords: [Markdown, Example]
+geometry: margin=1in
+fontsize: 12pt
+fontenc: T1
+fontfamily: sourcesanspro  
+fontfamilyoptions: sfdefault
+...
+
 # Kernel Validation
 
 Verify just once that the kernel operations are correctly performed, which is crutial when working with large amounts of data. This consists in a comparison between the result of the same operation done both in CPU and GPU.

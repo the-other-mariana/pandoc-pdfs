@@ -1,3 +1,15 @@
+---
+title: "Introduction to Parallel Computing with CUDA"
+author: [Mariana Avalos Arce]
+date: "2021"
+keywords: [Markdown, Example]
+geometry: margin=1in
+fontsize: 12pt
+fontenc: T1
+fontfamily: sourcesanspro  
+fontfamilyoptions: sfdefault
+...
+
 # Practice
 
 - If you launch a kernel with 1 block and this block has only 1 dimension: `globalId = threadIdx.x`. A globalId is important because it allows us to identify a thread from another with a **unique** value. 

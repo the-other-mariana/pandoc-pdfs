@@ -1,3 +1,15 @@
+---
+title: "Introduction to Parallel Computing with CUDA"
+author: [Mariana Avalos Arce]
+date: "2021"
+keywords: [Markdown, Example]
+geometry: margin=1in
+fontsize: 12pt
+fontenc: T1
+fontfamily: sourcesanspro  
+fontfamilyoptions: sfdefault
+...
+
 # Processing Time in the GPU and CPU
 
 If we were to test the processing time of the same operation over and over, say z = 2x + y, performed both by the CPU and GPU, there would be a noticeable difference if the size of the vectors to store this repeated operations is enormous (102,400 cells). Consider the image below:

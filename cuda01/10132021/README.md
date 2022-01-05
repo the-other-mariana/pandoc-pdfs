@@ -1,3 +1,15 @@
+---
+title: "Introduction to Parallel Computing with CUDA"
+author: [Mariana Avalos Arce]
+date: "2021"
+keywords: [Markdown, Example]
+geometry: margin=1in
+fontsize: 12pt
+fontenc: T1
+fontfamily: sourcesanspro  
+fontfamilyoptions: sfdefault
+...
+
 # RGB Image Manipulation: Other Options
 
 Now, instead of processing the complement of the RGB image by reading from 3 vectors of information, let's try and read from a single vector that holds R, G and B vectors in one: vecSize x 3 this time.

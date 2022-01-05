@@ -1,3 +1,15 @@
+---
+title: "Introduction to Parallel Computing with CUDA"
+author: [Mariana Avalos Arce]
+date: "2021"
+keywords: [Markdown, Example]
+geometry: margin=1in
+fontsize: 12pt
+fontenc: T1
+fontfamily: sourcesanspro  
+fontfamilyoptions: sfdefault
+...
+
 # GPU Specs Meaning
 
 ## Summary
@@ -49,6 +61,42 @@
 ![Image](res/03.png)
 
 - In this image, we now the grid config (block quantities per axis) just by dividing the dimensions 768 x 448 by 32 and we get `grid(14, 24, 1)`. Thus, 14 x 24 = 336 square blocks of 32 x 32. The 32 x 32 = 1024, which are the threads in `maxThreadsPerBlock` or in a block, not per SM. Each of these blocks would be executed by one SM, because of i). We only have 16 SM and we have 336 blocks, so in each multiprocessor there will be 21 blocks per SM, **with some waiting time**: virtually or in software would be parallel, but not at hardware level. At hardware or real parallel, it must be the number given by NVIDIA.
+
+### Know Your Specs
+
+```c++
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
+
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+__host__ void checkCUDAError(const char* msg) {
+	cudaError_t error;
+	cudaDeviceSynchronize();
+	error = cudaGetLastError();
+	if (error != cudaSuccess) {
+		printf("ERROR %d: %s (%s)\n", error, cudaGetErrorString(error), msg);
+	}
+}
+
+int main()
+{
+	cudaDeviceProp properties;
+	cudaGetDeviceProperties(&properties, 0);
+	// Device name: NVIDIA GeForce GTX 1080
+	cout << "name: " << properties.name << endl;
+	// 2560 Cores https://www.nvidia.com/es-la/geforce/products/10series/geforce-gtx-1080/
+	cout << "CUDA Cores: " << 2560 << endl; 
+	// SM units/ Multiprocessors: 
+	cout << "multiProcessorCount: " << properties.multiProcessorCount << endl; // 20
+	cout << "Cores per Multiprocessor: " << 2560 / properties.multiProcessorCount << endl; // 128
+	cout << "maxThreadsPerMultiProcessor: " << properties.maxThreadsPerMultiProcessor << endl; // 2048
+	cout << "maxBlocksPerMultiProcessor: " << properties.maxBlocksPerMultiProcessor << endl; // 32
+    return 0;
+}
+```
 
 ### Careful with Your Configs
 

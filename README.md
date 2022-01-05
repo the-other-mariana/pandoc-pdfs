@@ -24,3 +24,12 @@ fontfamily: fouriernc
 header-includes:
   - \renewcommand{\familydefault}{\sfdefault}
 ```
+
+## Bash Scripts
+
+- To execute `.sh` scripts inside some `folder`, type on GitBash:
+
+```
+$ cd path/to/folder
+$ sh script.sh
+```

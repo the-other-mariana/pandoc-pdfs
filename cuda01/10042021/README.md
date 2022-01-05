@@ -1,3 +1,15 @@
+---
+title: "Introduction to Parallel Computing with CUDA"
+author: [Mariana Avalos Arce]
+date: "2021"
+keywords: [Markdown, Example]
+geometry: margin=1in
+fontsize: 12pt
+fontenc: T1
+fontfamily: sourcesanspro  
+fontfamilyoptions: sfdefault
+...
+
 # Practice
 
 - The gId is calculated from our configs, and therefore inactive threads do not interfere in the calculation of gId's. If you launch 2 blocks with 40 threads, even if you use 4 warps, the thread gIds will go from 0 to 79, for example.
