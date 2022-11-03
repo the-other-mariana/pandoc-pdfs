@@ -1,6 +1,6 @@
 ---
 title: "Plan de calidad"
-author: [Mariana Ávalos Arce]
+author: [Control y Ejecución Operacional de Proyectos]
 date: "2022"
 keywords: [Markdown, Example]
 ...
