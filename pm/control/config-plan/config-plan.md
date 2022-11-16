@@ -35,6 +35,14 @@ keywords: [Markdown, Example]
    
        3. Registro de cambios implementados
 
+## Introducción
+
+El siguiente documento representa el Plan de Gestión de la Configuración, el cual busca describir los Ítems de Configuración (CIs) del presente proyecto, establecer el protocolo de registro y actualización de dichos ítems, y especificar el funcionamiento del sistema de manejo de cambios en CIs para que el proyecto se mantenga consistente y funcional ante cualquier modificación a dichos CIs.
+
+Así, el presente Plan define aquellos artefactos del proyecto que son propensos a sufrir cambios y que cualquier modificación a estos podría involucrar el correcto funcionamiento del proyecto, los cuales se reconocerán en el documento como **CIs**. Durante el proyecto, es bastante probable que se presente la necesidad de realizar cambios en dichos CIs, y estos cambios deben de seguir el protocolo y entrar al sistema de cambios en CIs para su correcta implementación. Se presentará la lista de los CIs que requerirán seguir el presente Plan si se les quiere modificar, donde cualquier otro cambio a elementos fuera de la lista de CIs deberá manejarse bajo el Plan de Gestión de Cambios.
+
+Por lo tanto, el Plan a continuación establece aquellos elementos considerados CIs, el sistema de cambios de CIs a los que se deben someter las solicitudes de cambio y las responsabilidades del equipo dentro de este sistema, a fin de guiar la implementación de dichas necesidades de cambio en los ítems mencionados.
+
 ## 1. Configuration Items (CIs)
 
 ### 1.1. Lista de CIs
@@ -136,7 +144,7 @@ Si tomamos en cuenta el siguiente concepto:
 
 > Average Component Dependency (ACD): how many elements a randomly selected element would depend on, including itself (Ciceri, 2022),
 
-descrito en el libro *Software Architecture Metrics* de Christian Ciceri (Ciceri, 2022), **el CD será pues el nombre de los CIs que se modifican si cada CI de la tabla anterior cambiara**. Los CI's que no se incluyen en la tabla siguiente no presentan ninguna interdependencia.
+descrito en el libro *Software Architecture Metrics* de Christian Ciceri, publicado por O'Reilly en 2022, **el CD será pues el nombre de los CIs que se modifican si cada CI de la tabla anterior cambiara**. Los CI's que no se incluyen en la tabla siguiente no presentan ninguna interdependencia.
 
 | CI | ACD |
 | --- | --- |
@@ -278,7 +286,3 @@ En total, cuando un SCCI es aceptado e implementado, el número de registros de 
 6. Actualización de la Tabla de CIs y Tabla de Interdependencias de CIs.
 
 *Nota: Todos los documentos de esta sección deberán estar almacenados en el repositorio del proyecto*.
-
-## Referencias
-
-(Ciceri, 2022) Ciceri, C. *Software Architecture Metrics*. O'Reilly, 2022.

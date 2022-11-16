@@ -37,9 +37,17 @@ keywords: [Markdown, Example]
 
         4. Evaluación de Resultados
 
+## Introducción
+
+El siguiente documento representa el Plan de Gestión de Cambios, el cual busca proveer de una estrategia y protocolo a seguir para gestionar el control de cambios y documentar los roles y responsabilidades del equipo ante cualquier situación de cambio requerido durante el transcurso del proyecto.
+
+A pesar de que los cambios inician verbalmente y surjan de forma natural ante la situación en la que se encuentra el proyecto, es indispensable que estos se registren de forma escrita y que entren a un sistema formal de control de cambios, para así implementarlos de forma adecuada y eficiente, que minimizen los costos e impactos negativos al proyecto.
+
+Por lo tanto, el siguiente Plan establece los pasos a seguir cuando se considere que el proyecto deba sufrir un cambio, la organización del sistema de control de cambios y el protocolo de implementación de los mismos. Cabe resaltar que cambios en los CIs se manejan bajo lo establecido en el Plan de Gestión de la Configuración, ya que por la naturaleza del presente proyecto ágil de software, estos deben ser procesados en un Plan por separado al tratarse de elementos de la configuración del proudcto final. De esta manera, el presente Plan rije el proceso que cualquier otro cambio ajeno a CIs debe seguir para su correcta implementación.
+
 ## 1. Solicitudes de Cambio
 
-Una solicitud de cambio es una propuesta formal para modificar cualquier documento, entregable o línea base del proyecto. Cambios en los ítems de configuración (CIs) se manejan bajo el [Plan de Configuración](https://github.com/the-other-mariana/pm/blob/master/PM1/control/week1/config-plan/config-plan.md). Cualquier otro cambio, se maneja bajo los procesos que se describen en el presente plan.
+Una necesidad de cambio puede surgir de forma natural durante el proyecto, pero es necesario que para la implementación del mismo se lleve a cabo en primer lugar una Solicitud de Cambio. Una solicitud de cambio es una propuesta formal para modificar cualquier documento, entregable o línea base del proyecto. Cambios en los ítems de configuración (CIs) se manejan bajo el [Plan de Configuración](https://github.com/the-other-mariana/pm/blob/master/PM1/control/week1/config-plan/config-plan.md). Cualquier otro cambio, se maneja bajo los procesos que se describen en el presente plan.
 
 ### 1.1. Formato de Solicitudes de Cambio
 
